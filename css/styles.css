@@ -1,0 +1,32 @@
+/*component */
+
+@import url("components/container.css");
+
+/*button*/
+
+@import url("components/button.css");
+
+/*navbar*/
+
+@import url("components/navbar.css");
+
+/*image*/
+
+@import url("components/image.css");
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat-Black", ;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.row {}
