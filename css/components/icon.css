@@ -1,0 +1,9 @@
+.icon {
+    color: #ff4c68;
+    margin: 18px auto;
+}
+
+.icon:hover {
+    color: #ef8172;
+    transform: scale(1.5);
+}

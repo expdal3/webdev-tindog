@@ -13,10 +13,51 @@
 /*image*/
 
 @import url("components/image.css");
+
+/*icon*/
+
+@import url("components/icon.css");
+
+/*cards*/
+
+@import url("components/card.css");
+
+/*********************************************/
+
+
+/******SECTIONS IDS***********/
+
+#features {
+    padding: 7% 10%;
+}
+
 #title {
     background-color: #ff4c68;
     color: white;
 }
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#press {
+    padding: 3% 3%;
+    text-align: center;
+    background-color: #fff;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+
+/***********Selector and classes ***************/
 
 body {
     font-family: "Montserrat";
@@ -29,4 +70,30 @@ h1 {
     line-height: 1.5;
 }
 
-.row {}
+h2 {
+    font-family: "Montserrat-Black", ;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+}
+h3 {
+    font-family: "Montserrat", ;
+    font-weight: 900;
+}
+p {
+    color: #8f8f8f;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.feature-box-text {
+    font-family: "Montserrat", ;
+    font-weight: 600;
+}
+.carousel-item {
+    padding: 7% 10%;
+}
