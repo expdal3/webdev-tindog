@@ -7,3 +7,8 @@
     color: #ef8172;
     transform: scale(1.5);
 }
+
+.social-icon {
+    margin: 20px 10px;
+    scale: 1.5rem;
+}

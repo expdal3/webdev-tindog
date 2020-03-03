@@ -1,11 +1,10 @@
 .title-image {
     width: 60%;
     padding-left: 32px;
-}
-
-.rotate {
     transform: rotate(25deg);
-    /* Equal to rotateZ(45deg) */
+    position: relative;
+    right: 25%;
+    /*required for z-index to work*/
 }
 
 .testimonials-image {
